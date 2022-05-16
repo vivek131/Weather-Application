@@ -1,0 +1,74 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("/images/clear.jpg");
+    background-repeat: no-repeat;
+    background-position:top-center;
+    background-size: cover;
+    overflow: hidden;
+    height:100vh;
+   
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.head{
+    background-color: #2f3a42;
+    border-radius: 14px;
+    opacity: 0.9;
+}
+.head h1{
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    text-align: center;
+    color: white;
+    margin-bottom: 13px;
+}
+
+/*container styling*/
+#container{
+    width: 430px;
+    background-color:rgba(240,248,255,0.6);
+    border-radius: 2px solid black;
+    border-radius:13px;
+    font-size: 1.4rem;
+    height:476px;
+}
+#container .searchInputBox{
+    padding: 12px 4px;
+}
+#container .searchInputBox input{
+    padding: 3px 4px;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    width: 81%;
+    margin-left: 39px;
+    height: 44px;
+}
+#container .searchInputBox input:focus{
+    background-color: rgba(255, 255, 255);
+}
+/*weather details*/
+.weather-body{
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    font-size:1.7rem;
+    background-color: rgba(255, 255, 255, 0.6);
+    height:290px;
+    width: 332px;
+    border-radius: 12px;
+    margin: auto;
+}
+/*temperature*/
+.weather-body .weather-status .temp{
+    font-size:3.4rem;
+    margin:20px 0px;
+    font-weight: bold;
+}
+
+
+/*font-family: 'Bree Serif', serif;*/
+/* font-family: 'Baloo Bhaijaan 2', cursive;*/
